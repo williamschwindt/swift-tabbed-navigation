@@ -85,7 +85,6 @@
 		3D9D87E4245F4F7F006A0034 = {
 			isa = PBXGroup;
 			children = (
-				3D9D8824245F6390006A0034 /* Colors.storyboard */,
 				3D9D87EF245F4F7F006A0034 /* screens */,
 				3D9D8806245F4F7F006A0034 /* screensTests */,
 				3D9D8811245F4F7F006A0034 /* screensUITests */,
@@ -109,6 +108,7 @@
 				3D9D87F0245F4F7F006A0034 /* AppDelegate.swift */,
 				3D9D87F2245F4F7F006A0034 /* SceneDelegate.swift */,
 				3D9D87F4245F4F7F006A0034 /* ViewController.swift */,
+				3D9D8824245F6390006A0034 /* Colors.storyboard */,
 				3D9D87F6245F4F7F006A0034 /* Main.storyboard */,
 				3D9D87F9245F4F7F006A0034 /* Assets.xcassets */,
 				3D9D87FB245F4F7F006A0034 /* LaunchScreen.storyboard */,

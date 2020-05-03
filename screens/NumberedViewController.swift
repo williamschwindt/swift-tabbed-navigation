@@ -29,5 +29,9 @@ class NumberedViewController: UIViewController {
             label.text = String(number)
         }
     }
-
+    @IBAction func doneButtonTapped(_ sender: Any) {
+        //when presented modally self.dismiss(animated: true)
+    self.navigationController?.popToRootViewController(animated: true)
+    }
+    
 }
