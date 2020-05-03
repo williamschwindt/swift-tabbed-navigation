@@ -15,6 +15,8 @@
 		3D9D87FD245F4F7F006A0034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D87FB245F4F7F006A0034 /* LaunchScreen.storyboard */; };
 		3D9D8808245F4F7F006A0034 /* screensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D8807245F4F7F006A0034 /* screensTests.swift */; };
 		3D9D8813245F4F7F006A0034 /* screensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D8812245F4F7F006A0034 /* screensUITests.swift */; };
+		3D9D8821245F566D006A0034 /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D8820245F566D006A0034 /* NumberedViewController.swift */; };
+		3D9D8823245F5688006A0034 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D8822245F5688006A0034 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D9D880E245F4F7F006A0034 /* screensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = screensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9D8812245F4F7F006A0034 /* screensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screensUITests.swift; sourceTree = "<group>"; };
 		3D9D8814245F4F7F006A0034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9D8820245F566D006A0034 /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
+		3D9D8822245F5688006A0034 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3D9D87F9245F4F7F006A0034 /* Assets.xcassets */,
 				3D9D87FB245F4F7F006A0034 /* LaunchScreen.storyboard */,
 				3D9D87FE245F4F7F006A0034 /* Info.plist */,
+				3D9D8820245F566D006A0034 /* NumberedViewController.swift */,
+				3D9D8822245F5688006A0034 /* RedViewController.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9D8823245F5688006A0034 /* RedViewController.swift in Sources */,
+				3D9D8821245F566D006A0034 /* NumberedViewController.swift in Sources */,
 				3D9D87F5245F4F7F006A0034 /* ViewController.swift in Sources */,
 				3D9D87F1245F4F7F006A0034 /* AppDelegate.swift in Sources */,
 				3D9D87F3245F4F7F006A0034 /* SceneDelegate.swift in Sources */,
