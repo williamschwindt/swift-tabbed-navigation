@@ -17,6 +17,7 @@
 		3D9D8813245F4F7F006A0034 /* screensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D8812245F4F7F006A0034 /* screensUITests.swift */; };
 		3D9D8821245F566D006A0034 /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D8820245F566D006A0034 /* NumberedViewController.swift */; };
 		3D9D8823245F5688006A0034 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D8822245F5688006A0034 /* RedViewController.swift */; };
+		3D9D8826245F6390006A0034 /* Colors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D8824245F6390006A0034 /* Colors.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3D9D8814245F4F7F006A0034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9D8820245F566D006A0034 /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
 		3D9D8822245F5688006A0034 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		3D9D8825245F6390006A0034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = screens/Base.lproj/Colors.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		3D9D87E4245F4F7F006A0034 = {
 			isa = PBXGroup;
 			children = (
+				3D9D8824245F6390006A0034 /* Colors.storyboard */,
 				3D9D87EF245F4F7F006A0034 /* screens */,
 				3D9D8806245F4F7F006A0034 /* screensTests */,
 				3D9D8811245F4F7F006A0034 /* screensUITests */,
@@ -240,6 +243,7 @@
 			files = (
 				3D9D87FD245F4F7F006A0034 /* LaunchScreen.storyboard in Resources */,
 				3D9D87FA245F4F7F006A0034 /* Assets.xcassets in Resources */,
+				3D9D8826245F6390006A0034 /* Colors.storyboard in Resources */,
 				3D9D87F8245F4F7F006A0034 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +323,14 @@
 				3D9D87FC245F4F7F006A0034 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9D8824245F6390006A0034 /* Colors.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9D8825245F6390006A0034 /* Base */,
+			);
+			name = Colors.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
